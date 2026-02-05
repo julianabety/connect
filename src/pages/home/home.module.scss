@@ -1,18 +1,126 @@
 .main{
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     justify-content: space-between;
+
+    img{
+        flex:1;
+        max-width: 100%;
+        min-width: 0;
+        object-fit: cover;
+        display: block;
+    }
 }
 
 .info{
-    border: 2px solid blue ;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 2rem;
+    gap:1.5rem;
+
     
     h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
         color:#205691;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 700;
+        width: 30rem;
+    }
+
+    p{
+        font-family: 'Inter', sans-serif;
+        color:#205691;
+        font-size: 1.4rem;
+        font-weight: 400;
+        width: 43rem;
+    }
+
+    button{
+        font-family: 'Source Sans 3', sans-serif;
+        border:none;
+        background-color:#FD7267;
+        color:white;
+        font-size: 24px;
+        padding:20px 0;
+        max-width: 330px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    
+    article{
+        width: 168px;
+        height: 69px;
+
+        h2, h3{
+            color:#205691;
+            text-align: center;
+        }
+        h2{
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        h3{
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+
+        img{
+            width: 100%;
+            max-width: 522px;
+            border-radius: 50%;
+        }
+    }
+
+    .info{
+        width: 90vw;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+
+
+        h1{
+            width: auto;
+            font-size: 2.5rem;
+        }
+
+        p{
+            width: auto;
+            font-size: 1.2rem;
+        }
+        button{
+            font-size: 20px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    }
+    .numbers{
+        flex-direction: column;
+        gap: 1.5rem;
+        height: auto;
+
+        article{
+            width: 120px;
+            height: auto;
+            h2{
+                font-size: 35px;
+            }
+        }
     }
 }
