@@ -1,4 +1,4 @@
-import  s from './Card.module.scss';
+import  s from './card.module.scss';
 
 export default function Card(props) {
 
