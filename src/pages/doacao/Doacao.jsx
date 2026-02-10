@@ -2,12 +2,12 @@ import Card from "../../components/cards/Card";
 import cest from '../../assets/images/cestabasica.jpg';
 import livro from '../../assets/images/livro.jpg';
 import computador from '../../assets/images/computador.jpg';
-import s from './Doacao.module.scss';
+import s from '../../../src/styles.module.scss';
 
 
 export default function Doacao() {
   return (
-    <main className={s.doacao}>
+    <main className={s.main}>
       <h1>Doação</h1>
 
       <section>
