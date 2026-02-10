@@ -1,16 +1,62 @@
-# React + Vite
+🌍 Connect
+Conectar pessoas é transformar realidades. Uma plataforma digital projetada para dar visibilidade a iniciativas sociais e unir voluntários a causas impactantes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Currently, two official plugins are available:
+📋 Sobre o Projeto
+O Connect é uma plataforma moderna, acessível e inspiradora que conecta organizações, voluntários e apoiadores. O foco principal é facilitar o engajamento social através de uma interface profissional que transmite confiança e empatia.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+🎯 Objetivos:
+Visibilidade: Divulgar projetos sociais e suas missões.
 
-## React Compiler
+Conexão: Facilitar o contato entre voluntários e organizações.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Impacto: Inspirar a transformação social através da tecnologia.
 
-## Expanding the ESLint configuration
+Acessibilidade: Proporcionar uma experiência fluida e responsiva para todos os usuários.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+🚀 Tecnologias e Ferramentas
+Para garantir uma arquitetura organizada e escalável, utilizamos:
+
+React.js (Vite): Biblioteca principal para a criação de componentes reutilizáveis.
+
+React Router DOM: Gerenciamento de rotas para navegação entre páginas (SPA).
+
+Sass (SCSS): Estilização modular com aninhamento, variáveis e módulos.
+
+React Icons: Conjunto de ícones para uma interface intuitiva.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+🏗️ Estrutura do Projeto
+A organização de pastas segue as melhores práticas de desenvolvimento Frontend:
+
+Plaintext
+src/
+ ├── assets/          # Imagens (banner, logo) e ícones
+ ├── components/      # Componentes compartilhados (Header, Footer, Cards)
+ ├── pages/           # Views principais da aplicação
+ │    ├── doacao      # Página de contribuições
+ │    ├── eventosEP   # Eventos e Palestras
+ │    ├── home        # Página inicial (Hero e Métricas)
+ │    ├── mentoria    # Projetos de mentoria
+ │    ├── usuario     # Perfil do usuário voluntário
+ │    └── voluntariado# Projetos para voluntariado
+ ├── styles/          # SCSS global e módulos de estilo
+ ├── App.jsx          # Configuração de rotas principais
+ └── main.jsx         # Ponto de entrada da aplicação
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+📱 Responsividade
+A aplicação foi desenvolvida com foco total na experiência do usuário em diferentes dispositivos, utilizando:
+
+Unidades relativas (rem, %, vh, vw).
+
+max-width para controle de containers.
+
+Media Queries para adaptação em tablets e smartphones (Mobile-first).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+🤝 Contato
+Desenvolvido com 💙 por Juliana Ferreira.
