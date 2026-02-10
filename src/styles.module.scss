@@ -36,9 +36,15 @@
 
 @media (max-width: 768px) {
     .main{
+        h1{
+            font-size: 30px;
+        }
+        
         section{
             flex-direction: column;
             align-items: center;
+
+            
 
             article{
                 flex-direction: column;
